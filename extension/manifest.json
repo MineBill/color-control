@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Color Changer",
+    "version": "0.1",
+    "description": "Change you firefox colorscheme (and dark preference) from the command line",
+    // "icons": ""
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "color-changer@minebill.gr"
+        }
+    },
+    "options_ui": {
+        "page": "options/options.html",
+        "browser_style": true
+    },
+    "permissions": [
+        "nativeMessaging",
+        "browserSettings",
+        "management",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background/main.js"
+        ]
+    }
+}
