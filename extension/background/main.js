@@ -1,4 +1,4 @@
-let port = browser.runtime.connectNative("color_changer_middleman");
+let port = browser.runtime.connectNative("color_control_middleman");
 
 port.onMessage.addListener((response) => {
     console.log("Received message: " + response.mode);

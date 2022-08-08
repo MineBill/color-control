@@ -1,7 +1,0 @@
-{
-    "name": "color_changer_middleman",
-    "description": "Middle man for colorchanger extension. Can be controlled from other scripts",
-    "path": "PATH_TO_MIDDLEMAN_EXECUTABLE",
-    "type": "stdio",
-    "allowed_extensions": [ "color-changer@minebill.gr" ]
-}

@@ -1,0 +1,7 @@
+{
+    "name": "color_control_middleman",
+    "description": "Middle man for Color Control extension. Can be controlled from other scripts",
+    "path": "PATH_TO_MIDDLEMAN_EXECUTABLE",
+    "type": "stdio",
+    "allowed_extensions": [ "color-control@minebill.gr" ]
+}
