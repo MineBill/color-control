@@ -3,7 +3,6 @@
     "name": "Color Control",
     "version": "0.2",
     "description": "Change you firefox colorscheme (and dark preference) from the command line",
-    // "icons": ""
 
     "browser_specific_settings": {
         "gecko": {
